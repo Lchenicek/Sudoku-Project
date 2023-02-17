@@ -76,12 +76,6 @@ def solve(board):
 TESTS
 """
 
-def test1():
-    assert 4 == 4
-
-def test2():
-    assert 4 == 5
-
 def test_remove_30_cells():
     board = generate_sudoku(9, 30)
     # Check if 30 cells are removed
